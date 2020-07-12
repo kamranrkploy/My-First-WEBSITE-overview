@@ -1,0 +1,209 @@
+body
+{
+      font: Arial , helvetica , sans-serif;
+
+} 
+
+#topbox{
+         width: 1080px;
+/*             border: 1px  solid grey;*/
+         margin: 0 auto;
+}
+#head
+{ 
+     height: 100px;
+     padding: 10px 0px;
+}
+#brand
+{
+    float: left;
+}
+
+h1 a
+{
+    font-size: 50px;
+    font-weight: 100;
+    text-decoration: none;
+    color: purple;
+}
+
+#searchbox {
+        float: right;
+        width: 400px;
+        height: 50px;
+        background: linear-gradient(#e6ff99, #99ff99,#e6ff99,#99ff99,#e6ff99,#99ff99,#e6ff99,#99ff99,#e6ff99);
+        padding: 20px 20px 0px 20px;
+        margin-top: 10px;
+}
+
+.text{
+        width: 200px;
+        float:left;
+        font-size: 15px;
+        padding: 5px;
+        color:burlywood;
+        background: white url(images/search2.png) right center no-repeat;
+}
+.submit{
+        float: right;
+        width: 80px;
+        background:   #0073e6;
+        padding: 5px;
+        color: white;
+}
+
+.clear{     
+       clear: both;
+      }
+
+#menu{
+        height: 65px; 
+        background: linear-gradient( #45426D, #272443,#45426D);
+        padding: 5px 0px;
+}
+
+ul{
+    list-style: none;
+  }
+
+#menu ul li{
+    float: left;
+    padding: 0px 25px;
+    height: 30px;
+    border-right: 1.5px solid purple;
+}
+
+#menu ul li:last-child
+{
+    border-right: none;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:  #63607D;
+    line-height: 25px;
+    -webkit-transition: font-size 0.5s ease;
+    -o-transition: font-size 0.5s ease;
+    -moz-transition: font-size 0.5s ease;
+    -ms-transition: font-size 0.5s ease;
+    transition: font-size 0.5s ease;
+}
+
+#menu ul li a:hover , #menu ul li a.active{
+                    font-size: 25px;
+                    color: white;
+                    font-weight: bold;    
+                  }
+
+#introduction {
+            background: linear-gradient(#030D0E, #0E4E4E, #030D0E);
+/*
+    height: 520px;
+     background-image: url(images/147757.jpg);
+    background-size: 100% 100%;
+*/
+            padding:30px;
+            margin: 25px 0px;
+              }
+
+
+#introduction h3{
+    
+    font-size: 35.0px;
+    color: indianred;
+    font-weight: normal;
+}
+
+#introduction p
+{
+    font-size: 21px;
+    color: peru;
+    text-align:justify;
+    
+}
+
+.sidebar{  
+/*
+    background:url(images/147637.jpg);
+    background-size: 100% 100%;
+*/
+        height: 320px;
+        width:450px;
+        border: 2px solid green;
+        border-radius: 20px;
+        padding: 10px 30px;
+        }
+
+.sidebar h3{
+             color: #826702;
+             font-size: 30px;
+           }
+#leftsidebar
+{
+             background:url(images/maths.jpg);
+             background-size: 100% 100%;
+             float: left;
+             font-size: 15px;
+}
+
+#rightsidebar{
+              background:url(images/bck.jpg);
+              background-size: 100% 100%;
+              float: right;
+}
+
+
+.sidebar a
+{
+      text-decoration: none;
+      color: limegreen;
+      font-size: 18px;
+      -webkit-transition: font-size 0.5s ease;
+      -o-transition: font-size 0.5s ease;
+      -moz-transition: font-size 0.5s ease;
+      -ms-transition: font-size 0.5s ease;
+      transition: font-size 0.5s ease;
+
+}
+
+.sidebar ul li a:hover , .sidebar ul li a.active{
+        text-decoration: underline;
+        text-decoration-color: aqua;
+        font-size: 25px;
+        font-weight: bold;
+ }
+.sidebar ul
+{
+        padding-top: 10px;
+}
+
+
+#leftsidebar ul li
+{
+    color: aqua;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    list-style:lower-greek;
+} 
+
+#rightsidebar ul li
+{ 
+        padding-bottom: 10px;
+        padding-left: 10px;
+        color: aqua;
+        list-style:disc;
+        font-size: 20px;
+}
+
+.footer{
+            padding: 10px 10px 10px 20px;
+            margin-top: 15px;
+            color: limegreen;
+            font-size: 20px;
+            height: 60px;
+            background: linear-gradient(#030D0E, #0E4E4E, #030D0E);
+}
+
+        
